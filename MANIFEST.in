@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include suncycle *.css
+recursive-include suncycle *.csv
+recursive-include suncycle *.html
+recursive-include suncycle *.ico
+recursive-include suncycle *.js
+recursive-include suncycle *.json
+recursive-include suncycle *.md
+recursive-include suncycle *.png
+recursive-include suncycle *.py
+recursive-include suncycle *.svg
+recursive-include suncycle *.txt
+recursive-exclude suncycle *.pyc
